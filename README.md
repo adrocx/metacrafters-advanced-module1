@@ -169,7 +169,7 @@ contract Vault {
 ```
 Deploy these contracts to your Avalanche EVM subnet after setting it up.
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.17" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
 
 After we compile the contract, we connect our  Metamask wallet to the Remix IDE.
 
