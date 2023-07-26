@@ -1,6 +1,6 @@
 # Avalanche Subnets
 
-This Solidity program is a program that implements the aim_and_shoot function in the DeFi Kingdom game in the Avalanche subnets.
+This Solidity program is a program that implements the aim_and_shoot function in the DeFi Kingdom game in the Avalanche subnets along with other functions such as mint, burn transfer, transferfrom, token's total supply, approve token allowance and induvidual balances.
 
 ## Description
 The contract has a function called shoot_and_aim in which, the lives of a player gets decremented when the person is shot at. Initially the player has 7 lives.
@@ -167,6 +167,14 @@ contract Vault {
 }
 
 ```
+To set-up the Avalanche EVM subnet, we need RPC URL, token symbol and Chain ID.
+
+The RPC URL for 'mySubnet' is: http://127.0.0.1:9650/ext/bc/21eAJZ7zRrCzxbQQxSLDDvYSFZL4v6QJMEBh5RWiv2FBQR7U1j/rpc
+
+Token Symbol: ADX
+
+Chain ID: 2965
+
 Deploy these contracts to your Avalanche EVM subnet after setting it up.
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.17" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
