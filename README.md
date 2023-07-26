@@ -175,15 +175,21 @@ Token Symbol: ADX
 
 Chain ID: 2965
 
+
 Deploy these contracts to your Avalanche EVM subnet after setting it up.
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.17" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
+
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.17" (or another compatible version), and then click on the "Compile ADROCX.sol" button.
+
 
 After we compile the contract, we connect our  Metamask wallet to the Remix IDE.
 
+
 Next, we change the environment to Injected Provider. 
 
+
 Once the contract is deployed, you can interact with it to mint, burn, transfer tokens. 
+
 
 Upon interacting with the aim_and_shoot function, you will find that the 'lives' is decremented by 1.
 
